@@ -9,9 +9,9 @@ function App() {
     <div className='App'> 
       <AppBar position='static' sx={{marginBottom:"30px"}}> 
         <Toolbar> 
-          <h2 sx={{textAlign: 'center'}}>Text Utils</h2> 
+          <h2 className="h2" sx={{textAlign: 'center'}}>Text Utils</h2> 
         </Toolbar> 
-        </AppBar> 
+      </AppBar> 
         <Utility/> 
       </div> 
     </> 

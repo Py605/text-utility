@@ -14,12 +14,12 @@ function Utility() {
         setInput('')
     }
   return (
-    <Box >
+    <Box style={{ height: 480 }}>
         {/* <textarea  rows="10" cols="100" /> */}
         
-        <textarea rows="10" cols="100" value={input} onChange={e=>setInput(e.target.value)}/>
+        <textarea rows="5" cols="100" style={{ width: 700 ,height:100}} value={input} onChange={e=>setInput(e.target.value)}/>
         
-    <Box sx={{display:"flex",justifyContent:"space-around",margin:"10px"}}>
+    <Box style={{ width: 700 ,margin: "auto"}} sx={{display:"flex",justifyContent:"space-around",margin:"10px"}}>
         <Button onClick={upper} variant="contained">Upper Case</Button>
         <Button onClick={lower} variant="contained">Lower Case</Button>
         <Button onClick={clear} variant="contained" >Clear</Button>
